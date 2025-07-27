@@ -4,7 +4,7 @@ set -ouex pipefail
 
 # Remove packages
 
-dnf5 -y remove \
+dnf -y remove \
 ibus-hangul \
 ibus-libpinyin \
 ibus-anthy \
@@ -38,7 +38,7 @@ yelp \
 
 # Remove unused fonts
 
-dnf5 -y remove \
+dnf -y remove \
 google-noto-sans-mono-cjk-vf-fonts \
 google-noto-serif-cjk-vf-fonts \
 google-noto-naskh-arabic-vf-fonts \
@@ -89,12 +89,11 @@ google-noto-serif-thai-vf-fonts
 
 # Install packages 
 
-dnf5 -y install \
+dnf -y install \
 langpacks-core-fr \
 langpacks-fr \
 simple-scan \
 hplip
-#hblock
 
 # Enable System Unit Files for HP printer
 
