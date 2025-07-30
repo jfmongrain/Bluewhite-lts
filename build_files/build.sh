@@ -18,7 +18,7 @@ gnome-shell-extension-caffeine \
 gnome-shell-extension-blur-my-shell \
 gnome-shell-extension-search-light \
 gnome-shell-extension-gsconnect \
-zhuyin
+libpinyin
 
 # Remove unused fonts
 
