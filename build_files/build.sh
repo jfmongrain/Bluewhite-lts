@@ -17,7 +17,8 @@ gnome-shell-extension-dash-to-dock \
 gnome-shell-extension-caffeine \
 gnome-shell-extension-blur-my-shell \
 gnome-shell-extension-search-light \
-gnome-shell-extension-gsconnect
+gnome-shell-extension-gsconnect \
+zhuyin
 
 # Remove unused fonts
 
