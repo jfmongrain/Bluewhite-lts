@@ -72,7 +72,8 @@ google-noto-serif-thai-vf-fonts
 dnf -y install \
 langpacks-core-fr \
 langpacks-fr \
-simple-scan
+simple-scan \
+papers-thumbnailer
 
 # Enable System Unit Files for HP printer
 
