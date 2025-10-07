@@ -75,6 +75,19 @@ langpacks-fr \
 simple-scan \
 papers-thumbnailer
 
+# Install latest Zorin icon theme
+
+git clone https://github.com/ZorinOS/zorin-icon-themes.git
+mv zorin-icon-themes/Zorin /usr/share/icons
+rm -r zorin-icon-themes
+
+# Install MS fonts
+
+git clone https://github.com/microsoft-fonts/UWP-fonts.git
+mv UWP-fonts/fonts /usr/share/fonts/msfonts
+rm -r /usr/share/fonts/msfonts/non-latin
+rm -r UWP-fonts
+
 # Enable System Unit Files for HP printer
 
 systemctl enable hp-plugin-install
